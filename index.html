@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index.html is a Component Library</title>
-    <link href="styles.css" rel="stylesheet" /> 
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -107,26 +107,42 @@
     <h2>@sections</h2>
     <p>Sections are used to separate parts of a page</p>
 
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background.</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will gray background.</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background.</p>
+        </div>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
 
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>Social One</li>
-            <li>Social Two</li>
-            <li>Social Three</li>
+    <footer class="footer">
+        <h3>Some small heading inside footer</h3>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    Social One
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    Social Two
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">
+                    Social Three
+                </a>
+            </li>
         </ul>
     </footer>
 
